@@ -1,0 +1,16 @@
+.about-me-container{
+    position: relative;
+}
+
+.about-me-desc{
+    position: absolute;
+    z-index: 3;
+    top: 0;
+}
+
+.about-me-container img{
+    position: sticky;
+    z-index: 1;
+    width: 100%;
+}
+

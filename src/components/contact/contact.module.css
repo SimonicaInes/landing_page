@@ -1,0 +1,13 @@
+.contact-container{
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-container > *{
+    text-align: center;
+}
+
+#email, #linkedin a, #linkedin img[alt]{
+    font-size: 2rem;
+    font-family: Arial, Helvetica, sans-serif;
+}

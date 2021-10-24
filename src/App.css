@@ -1,0 +1,18 @@
+*{
+    box-sizing: border-box;
+}
+
+html, body, #root{
+    min-height: 100%;
+    color: white;
+}
+
+#root{
+    display: flex;
+    flex-direction: column;
+    background-image: linear-gradient(#430078 20%, #1938A0 50%, #150331 85%);
+}
+
+main{
+    flex-grow: 1;
+}
