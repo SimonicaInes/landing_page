@@ -75,15 +75,15 @@ export const PROJECTS = [{
         <img src="./projects/sword/r1.png" alt="sword1"/>,
         <img src="./projects/sword/r2.png" alt="sword2"/>,
     ],
-    description: "lorem ipsum"
+    description: "Created and rendered in Blender, this projects purpose was to use volumetric effects and model the sword by myself, create materials while also using existent PBR ones"
 },{
     title: "Robot Arm",
     images: [
-        <video width="75%" height="100%" controls>
+        <video height="100%" controls>
             <source src="./projects/roboarm/roboarm.mp4" type="video/mp4"/>
         </video>
     ],
-    description: "lorem ipsum dolor"
+    description: "This is one of my first projects in Blender in which I modelled the arm parts and applied inverse kinematics on the armature."
 },{
     title: "Wooden Board with Food",
     images: [
@@ -92,7 +92,7 @@ export const PROJECTS = [{
         <img src="./projects/plate/r2.2.png" alt="food2.2"/>,
         <img src="./projects/plate/r3.png" alt="food3"/>,
     ],
-    description: "lorem ipsum dolor"
+    description: "One of my latest projects in Blender, in which I am making high use of existent PBR materials while modelling almost everything by hand, using on most assets non-destructive geometry techniques."
 },{
     title: "Portal Stones",
     images: [
@@ -107,7 +107,7 @@ export const PROJECTS = [{
         <img src="./projects/portal/i9.png" alt="portal9"/>,
         <img src="./projects/portal/i10.png" alt="portal10"/>,
     ],
-    description: "lorem ipsum dolor"
+    description: "A Blender project started from zero with minimum usage of existent PBR materials (only for the stone effect) while the rest of the maps are baked after hand-sculting the objects. The final result is rendered in Unreal engine 4, with the foliage imported from megascans library."
 },{
     title: "Jewellery box",
     images: [
@@ -115,26 +115,25 @@ export const PROJECTS = [{
         <img src="./projects/jewellery/r2.png" alt="box2"/>,
         <img src="./projects/jewellery/r2.1.jpg" alt="box3"/>
     ],
-    description: "lorem ipsum dolor"
+    description: "A Blender project representing a modular product, using PBR materials."
 },{
     title: "Motorcycle Helmet",
     images: [
         <img src="./projects/motorcyclehelmet/m1.png" alt="helmet"/>
     ],
-    description: "lorem ipsum dolor"
+    description: "A Blender project, rendered in Unreal Engine 4. The model parts are modelled by myself and I applied the automotive materials from Unreal Engine."
 },{
     title: "Cash Envelopes",
     images: [
         <img src="./projects/envelopes/r1.png" alt="envelope1"/>,
-        <img src="./projects/envelopes/r2.png" alt="envelope2"/>
     ],
-    description: "lorem ipsum dolor"
+    description: "A Blender project in which I modelled the real product representation from and with provided image references."
 },{
     title: "Icarus Candle",
     images: [
         <img src="./projects/icarus/r1.png" alt="icarus1"/>,
         <img src="./projects/icarus/r1.1.png" alt="icarus2"/>
     ],
-    description: "lorem ipsum dolor"
+    description: "A Blender render with a model sculpted and exported from zBrush. The concept was part of a human male body anatomy study."
 }
 ]
