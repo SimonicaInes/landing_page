@@ -48,7 +48,7 @@ function App() {
                             description={project.description}
                         />
                     })}
-                    
+
                 </SectionContainer>
             </main>
         
