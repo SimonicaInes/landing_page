@@ -48,16 +48,17 @@ function App() {
                     />
                 </SectionContainer>
 
-                <SectionContainer title="Projects">
-                    {PROJECTS.map(project => {
-                        return <Project 
-                            title={project.title}
-                            images={project.images}
-                            description={project.description}
-                        />
-                    })}
-
-                </SectionContainer>
+                <div id="#projects">
+                    <SectionContainer title="Projects">
+                        {PROJECTS.map(project => {
+                            return <Project 
+                                title={project.title}
+                                images={project.images}
+                                description={project.description}
+                            />
+                        })}
+                    </SectionContainer>
+                </div>
             </main>
         
             <footer>
