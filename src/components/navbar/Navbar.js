@@ -6,8 +6,8 @@ function Navbar(){
     return (
         <nav>
             <ul>
-                <li><a href="/#">HOME</a></li>
                 <li><a href="/#">CV</a></li>
+                <li><a href="/#projects">PROJECTS</a></li>
                 <li><a href="/#contact" onClick={scroll}>CONTACT</a></li>
             </ul>
         </nav>

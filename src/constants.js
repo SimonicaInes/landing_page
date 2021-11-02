@@ -31,6 +31,14 @@ export const LANGUAGES_PROFICIENCIES = [{
     proficiency: "100%"
 }];
 
+export const REEL = {
+    title: "Magic Sword in Stone",
+    images: [
+        <img src="./bannervid.gif"/>
+    ],
+    description: "Created and rendered in Blender, this projects purpose was to use volumetric effects and model the sword by myself, create materials while also using existent PBR ones"
+};
+
 export const SKILLS_PROFICIENCIES = [{
     skill: "blender",
     alternative: <img className="language-flag-img" src={LANG_FOLDER_NAME + "languages/en.png"} alt="EN"/>,

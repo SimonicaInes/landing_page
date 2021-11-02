@@ -6,7 +6,7 @@ import Experience from './components/experience/Experience';
 import ProficiencyLevels from './components/proficiency/ProficiencyLevels';
 import Project from './components/project/Project';
 import Contact from './components/contact/Contact';
-import {LEVELS, LANGUAGES_PROFICIENCIES, SKILLS_PROFICIENCIES, WORKPLACES, EDUCATIONS, PROJECTS} from "./constants";
+import {LEVELS, LANGUAGES_PROFICIENCIES, SKILLS_PROFICIENCIES, WORKPLACES, EDUCATIONS, PROJECTS, REEL} from "./constants";
 
 function App() {
     return (
@@ -24,6 +24,14 @@ function App() {
 
                 <SectionContainer title="Education">
                     <Experience names={EDUCATIONS}/>
+                </SectionContainer>
+
+                <SectionContainer title="Reel">
+                    <Project 
+                        title={REEL.title}
+                        images={REEL.images}
+                        description={REEL.description}
+                    />
                 </SectionContainer>
 
                 <SectionContainer title="Languages Spoken">
