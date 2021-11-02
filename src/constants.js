@@ -133,7 +133,7 @@ export const PROJECTS = [{
 },{
     title: "Cash Envelopes",
     images: [
-        <img src="./projects/envelopes/r1.png" alt="envelope1"/>,
+        <img src="./projects/envelopes/r1.webp" alt="envelope1"/>,
     ],
     description: "A Blender project in which I modelled the real product representation from and with provided image references."
 },{

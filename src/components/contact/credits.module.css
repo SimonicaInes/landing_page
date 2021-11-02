@@ -1,0 +1,8 @@
+.credits{
+    padding-bottom: 5px;
+}
+
+.credits a{
+    font-size: 12px;
+    text-decoration: underline;
+}
