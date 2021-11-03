@@ -1,4 +1,4 @@
-import styles from "./navbar.module.css";
+import "./navbar.module.css";
 
 function Navbar(){
     const scroll = (location) => document.getElementById(`#${location}`).scrollIntoView({block: "start", behavior: "smooth"});

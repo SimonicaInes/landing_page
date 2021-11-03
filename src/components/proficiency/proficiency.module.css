@@ -8,7 +8,6 @@
     grid-template-columns: 20% 80%;
     row-gap: 1em;
     width: 75%;
-    /* media query pe width pt mobile, 4k */
 }
 
 .language-bar-legend{
@@ -87,15 +86,4 @@
     height: 100%;
     background-image: linear-gradient(to right, var(--start-bar-color), var(--end-bar-color));
     border-radius: 10px;
-}
-
-
-.language-flag-img{
-    height: 1em;
-    width: 1.5em;
-}
-
-.language-level-img{
-    width: 1em;
-    height: 1em;
 }

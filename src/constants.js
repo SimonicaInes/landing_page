@@ -1,33 +1,24 @@
-const LANG_FOLDER_NAME = "./";
-
 export const WORKPLACES = [<img src="./bosch.png" alt="Robert Bosch GMBH"/>, "2019-2020", "Developer"];
 export const EDUCATIONS = [<img src="./sigla_utcluj_white.svg" alt="UTCN"/>, "In Progress", "Computer Science"];
 
 export const LEVELS = [{
     level: "Basic",
-    alternative: <img className="language-level-img" src={LANG_FOLDER_NAME + "levels/low.png"} alt="v"/>
 }, {
     level: "Intermediate",
-    alternative: <img className="language-level-img" src={LANG_FOLDER_NAME + "levels/tilda.png"} alt="~"/>
 }, { 
     level: "Advanced",
-    alternative: <img className="language-level-img" src={LANG_FOLDER_NAME + "levels/high.png"} alt="^"/>
 }, {
     level: "Proficient",
-    alternative: <img className="language-level-img" src={LANG_FOLDER_NAME + "levels/star.png"} alt="+"/>
 }];
 
 export const LANGUAGES_PROFICIENCIES = [{
     skill: "english",
-    alternative: <img className="language-flag-img" src={LANG_FOLDER_NAME + "languages/en.png"} alt="EN"/>,
     proficiency: "90%"
 },{
     skill: "french",
-    alternative: <img className="language-flag-img" src={LANG_FOLDER_NAME + "languages/fr.png"} alt="FR"/>,
     proficiency: "22%"
 },{
     skill: "romanian",
-    alternative: <img className="language-flag-img" src={LANG_FOLDER_NAME + "languages/ro.png"} alt="RO"/>,
     proficiency: "100%"
 }];
 
@@ -39,39 +30,30 @@ export const REEL = {
 
 export const SKILLS_PROFICIENCIES = [{
     skill: "blender",
-    alternative: <img className="language-flag-img" src={LANG_FOLDER_NAME + "languages/en.png"} alt="EN"/>,
     proficiency: "73%"
 },{
     skill: "Unreal Engine",
-    alternative: <img className="language-flag-img" src={LANG_FOLDER_NAME + "languages/fr.png"} alt="FR"/>,
     proficiency: "60%"
 },{
     skill: "Unity",
-    alternative: <img className="language-flag-img" src={LANG_FOLDER_NAME + "languages/ro.png"} alt="RO"/>,
     proficiency: "35%"
 },{
     skill: "C#",
-    alternative: <img className="language-flag-img" src={LANG_FOLDER_NAME + "languages/ro.png"} alt="RO"/>,
     proficiency: "30%"
 },{
     skill: "zbrush",
-    alternative: <img className="language-flag-img" src={LANG_FOLDER_NAME + "languages/ro.png"} alt="RO"/>,
     proficiency: "25%"
 },{
     skill: "photoshop",
-    alternative: <img className="language-flag-img" src={LANG_FOLDER_NAME + "languages/ro.png"} alt="RO"/>,
     proficiency: "48%"
 },{
     skill: "substance",
-    alternative: <img className="language-flag-img" src={LANG_FOLDER_NAME + "languages/ro.png"} alt="RO"/>,
     proficiency: "20%"
 },{
     skill: "aseprite",
-    alternative: <img className="language-flag-img" src={LANG_FOLDER_NAME + "languages/ro.png"} alt="RO"/>,
     proficiency: "55%"
 },{
     skill: "figma",
-    alternative: <img className="language-flag-img" src={LANG_FOLDER_NAME + "languages/ro.png"} alt="RO"/>,
     proficiency: "70%"
 }];
 
