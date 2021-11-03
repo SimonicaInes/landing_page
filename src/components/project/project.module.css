@@ -38,9 +38,10 @@
 
 .description{
     align-self: flex-start;
+    font-size: 1.35em;
 }
 
-.work-container img, .work-container video{
+.work-container img, .work-container                                                                        video{
     height: 500px;
     max-width: 800px;
 }

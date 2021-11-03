@@ -36,10 +36,13 @@ function Project(props){
                     : null
                 }
             </div>
-            <div className={styles["description"]}>
+            {props.description ? 
+                <div className={styles["description"]}>
                 <h4>Description</h4>
                 <p>{props.description}</p>
             </div>
+            : null}
+            
         </div>
     );    
 }
