@@ -67,7 +67,7 @@ export const PROJECTS = [{
 },{
     title: "Robot Arm",
     images: [
-        <img src="./projects/roboarm/roboarm.gif" alt="robot arm"/>
+        <img src="./projects/roboarm/roboArm.gif" alt="robot arm"/>
     ],
     description: "This is one of my first projects in Blender in which I modelled the arm parts and applied inverse kinematics on the armature."
 },{
